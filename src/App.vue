@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    你好呀
+    你好呀，在吗
     <img src="./assets/logo.png">
     <router-view/>
   </div>
