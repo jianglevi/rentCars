@@ -1,0 +1,25 @@
+
+@import './sassConfig.scss';
+i[class^=icon]{
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 50%;
+    background-color: $color_main;
+    background-repeat: no-repeat;
+}
+
+@mixin inclusiveKey($type,$value){
+    -webkit-#{$type}:$value;
+    -moz-#{type}:$value;
+    -o-#{type}:$value;
+    #{type}:$value;
+}
+
+@mixin  inclusiveValue($type,$value){
+    #{$type}:-webkit-#{$value};
+    #{$type}:-mz-#{value};
+    #{$type}:-o-#{value};
+    #{$type}:#{value}
+}

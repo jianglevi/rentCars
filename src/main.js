@@ -4,6 +4,9 @@ import router from "./router";
 import store from "./store";
 
 Vue.config.productionTip = false;
+// 引用高德地图插件
+import './plugin/aMap'
+
 
 new Vue({
   router,
