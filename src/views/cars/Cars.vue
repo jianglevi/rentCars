@@ -3,7 +3,7 @@
     <div class="cars-swiper-wrap">
       <swiper class="swiper" :options="swiperOption" ref="hits">
         <swiper-slide>
-          <cars-list />
+          <cars-list height='500'/>
         </swiper-slide>
         <swiper-slide>
           <cars-list />

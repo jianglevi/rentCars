@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang='scss' scope>
-   
+@import '../styles/main.scss';
     .navbar{
         position: fixed;
         bottom: 25%;
@@ -36,6 +36,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        list-style: none;
         li{
             margin: 20px;
             cursor: pointer;
@@ -46,7 +47,7 @@ export default {
                 line-height: 44px;
                 color: #FFF;
                 border-radius: 20px;
-                // background-color: $color_main;
+                background-color: $color_main;
         }
     }
     .iconfont{
